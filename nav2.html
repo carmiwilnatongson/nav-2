@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav {
+            overflow: hidden;
+            background-color: #000000;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+           
+        }
+
+        .nav li a:hover {
+            background-color: #00e5ff;
+            width: 100px;
+            height: 20px;
+            background: rgb(2, 255, 213);
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            
+        }
+
+        li::marker {
+            color: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="#" class="products">Products</a></li>
+            <li><a href="#" class="company">Company</a></li>
+            <li><a href="#" class="contact">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>
